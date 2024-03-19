@@ -14,5 +14,3 @@ def send_email(message):
         server.login(username, password)
         server.sendmail(username, receiver, msg=message)
 
-
-send_email(message="test")
